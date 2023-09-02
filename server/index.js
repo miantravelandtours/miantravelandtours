@@ -11,7 +11,7 @@ const userRoute = require("./routes/userRoute.js")
 const visitsRouter = require("./routes/visitsTrackerRote.js")
 const app = express();
 app.use(Cors({
-    origin: 'miantravelandtours.vercel.app:3000',
+    origin: 'https://miantravelandtours-backend-3b86bbcf10b4.herokuapp.com:3000',
     methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH']
 }));
 env.config();
