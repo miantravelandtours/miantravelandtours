@@ -1,2 +1,2 @@
-const url = 'miantravelandtours-api.vercel.app';
+const url = 'https://miantravelandtours-api.vercel.app/';
 export default url; 
